@@ -1,31 +1,12 @@
 
-![TIC-80](https://tic80.com/img/logo64.png)
 **TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com)
 
 # About
-this is a unafucail version of tick-80 ported to the nitendo wii
-TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games.
+this is an unofficial version of tick-80 ported to the Nintendo Wii
 
-With TIC-80 you get built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game.
+**TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com) check out the original version or download o your computer here 
 
-Games are packaged into a cartridge file, which can be easily distributed. TIC-80 works on all popular platforms. This means your cartridge can be played in any device.
 
-To make a retro styled game, the whole process of creation and execution takes place under some technical limitations: 240x136 pixel display, 16 color palette, 256 8x8 color sprites, 4 channel sound, etc.
-
-![TIC-80](https://user-images.githubusercontent.com/1101448/92492270-d6bcbc80-f1fb-11ea-9d2d-468ad015ace2.gif)
-
-### Features
-- Multiple programming languages: [Lua](https://www.lua.org),
-  [Moonscript](https://moonscript.org),
-  [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript),
-  [Ruby](https://www.ruby-lang.org/en/),
-  [Wren](http://wren.io/),
-  [Fennel](https://fennel-lang.org),
-  [Squirrel](http://www.squirrel-lang.org), and
-  [Janet](https://janet-lang.org).
-- Games can have mouse and keyboard as input
-- Games can have up to 4 controllers as input (with up to 8 buttons, each)
-- Built-in editors: for code, sprites, world maps, sound effects and music
 - An additional memory bank: load different assets from your cartridge while your game is executing
 - Moderated community
 
@@ -231,6 +212,8 @@ You can find iOS/tvOS version here
 - 0.45.0: https://github.com/CliffsDover/TIC-80
 
 ## Credits
+
+to all the devs and conteubuiters for tick-80 thank you for making this wonderfould progrmaing
 
 * Filippo Rivato - [Twitter @HomineLudens](https://twitter.com/HomineLudens)
 * Fred Bednarski - [Twitter @FredBednarski](https://twitter.com/FredBednarski)
