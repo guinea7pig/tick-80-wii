@@ -7,13 +7,10 @@ this is an unofficial version of tick-80 ported to the Nintendo Wii
 **TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com) check out the original version or download o your computer here 
 
 
-- An additional memory bank: load different assets from your cartridge while your game is executing
-- Moderated community
-
 # Community
-You can play and share games, tools and music at [https://tic80.com/play](https://tic80.com/play).
-
-The community also hangs out and discusses on [Telegram](https://t.me/tic80) or [Discord](https://discord.gg/HwZDw7n4dN).
+play projects from the official program here [https://tic80.com/play](https://tic80.com/play).
+--add something for games made in unofficial PROGRAMS
+The community also hangs out and discusses on [Telegram](https://t.me/tic80) or [Discord](https://discord.gg/HwZDw7n4dN). --these are the normal links
 
 # Contributing
 You can contribute by reporting a bug or requesting a new feature on our [issues page](https://github.com/nesbox/TIC-80/issues).
