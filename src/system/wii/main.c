@@ -3,21 +3,25 @@
 #include <stdlib.h>
 #include <wiilight.h>
 #include <kbd.h>
-//whatever library we use 
+//keyboard studd
 void key_init()
 //code that hanndels stuff for virtaul and physicel
 char* kbdscan(int kbdfd);// scans for iputs figure out how to make this run on a loop
 void key_init()
 {
-int kbdfd = kbdinit();    
+    int kbdfd = kbdinit();    
 }
+//if input Letter: tic_name
 
 
+//
 
-
-
-void WIILIGHT_Init();//reapate this code muitlip times to scare the crap out of people
-WIILIGHT_SetLevel(255)://we could also use this to indacate loading or put some morse code srcrets
+//call this whene loading somthing
+void WIILIGHT_Init();
+WIILIGHT_SetLevel(255):
 WIILIGHT_TurnOn();
 sleep(1):
 WIILIGHT_TurnOff();
+//WII LIGHT 
+//loadig light 
+//if loading == true // do light stuff 
