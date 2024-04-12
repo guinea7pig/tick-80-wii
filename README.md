@@ -1,7 +1,7 @@
 
 **TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com)
 
-**disclaimer** this is an unofficial port of the tick-80 for the Wii, it has no intent of making a profit off this.
+#disclaimer** this is an unofficial port of the tick-80 for the Wii, it has no intent of making a profit off this.
 for any code moidfied or not,this thanks goest to all the coinrubuters and programmers at tick-80
 
 # About
