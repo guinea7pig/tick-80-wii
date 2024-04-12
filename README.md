@@ -1,9 +1,9 @@
-[![Build Status](https://github.com/nesbox/TIC-80/workflows/Build/badge.svg)](https://github.com/nesbox/TIC-80/actions?query=workflow%3ABuild)
 
 ![TIC-80](https://tic80.com/img/logo64.png)
 **TIC-80 TINY COMPUTER** - [https://tic80.com](https://tic80.com)
 
 # About
+this is a unafucail version of tick-80 ported to the nitendo wii
 TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games.
 
 With TIC-80 you get built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game.
