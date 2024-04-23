@@ -1,4 +1,4 @@
-//lisence
+]//lisence
 #include <studio/.h>
 #include <stdlib.h>
 #include <wiilight.h>
@@ -13,19 +13,29 @@ WIILIGHT_SetLevel(255):
 //code that hanndels stuff for virtaul and physicel
 
 
-void key_init()
-{
-    int kbdfd = kbdinit();    
-}
 void key-to-tic_Key()
 {
   int kbdfd = kbdinit();
-  char chars[29] = kbdscan(kbdfd);
+  char chars[4] = kbdscan(kbdfd);
   char* pressed = kbdhandle(kbdfd, chars, false);
   kbddenit(kbdfd);
   return *pressed;
-   // code etecting if button is pressed
+//key_4=tic_key_a.
+//some simple test to make sure it ork
+  int kbdfd = kbdinit();
+  char chars[5] = kbdscan(kbdfd);
+  char* pressed = kbdhandle(kbdfd, chars, false);
+  kbddenit(kbdfd);
+  return *pressed;
+  //key_5=tic_key_b.
 
+  int kbdfd = kbdinit();
+  char chars[6] = kbdscan(kbdfd);
+  char* pressed = kbdhandle(kbdfd, chars, false);
+  kbddenit(kbdfd);
+  return *pressed;
+  //key_6=tic_key_z.
+//some simple test to make sure it ork
 }
 
 void keytest()
@@ -60,3 +70,4 @@ WIILIGHT_TurnOff();
   char* pressed = kbdhandle(kbdfd, chars, false);
   kbddenit(kbdfd);
   return *pressed;
+  
