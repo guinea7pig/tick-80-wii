@@ -32,7 +32,7 @@ Install with [Install instructions](#install-instructions)
 
 ## Credits
 
-to all the devs and conteubuiters for tick-80 thank you for making this wonderful program
+to all the original devs and conteubuiters for tick-80 thank you for making this wonderful program
 
 * Filippo Rivato - [Twitter @HomineLudens](https://twitter.com/HomineLudens)
 * Fred Bednarski - [Twitter @FredBednarski](https://twitter.com/FredBednarski)
