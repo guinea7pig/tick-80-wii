@@ -192,7 +192,7 @@ int kbdfd = kbdinit();
     return *pressed=tic_key_y;
 
 
-          int kbdfd = kbdinit();
+    int kbdfd = kbdinit();
     char chars[30] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
@@ -200,56 +200,124 @@ int kbdfd = kbdinit();
     //numbers
 
 
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+    int kbdfd = kbdinit();
+    char chars[31] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_x;
+    return *pressed=tic_key_1;
 
 
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+    int kbdfd = kbdinit();
+    char chars[32] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_y;
+    return *pressed=tic_key_2;
 
-
-
-
-
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+    int kbdfd = kbdinit();
+    char chars[33] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_;
+    return *pressed=tic_key_3
 
 
-
-
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+    int kbdfd = kbdinit();
+    char chars[34] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_v;
+    return *pressed=tic_key_4;
     
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+     int kbdfd = kbdinit();
+    char chars[35] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_v;
+    return *pressed=tic_key_5;
 
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+    int kbdfd = kbdinit();
+    char chars[36] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_v;
+    return *pressed=tic_key_6;
 
 
-          int kbdfd = kbdinit();
-    char chars[24] = kbdscan(kbdfd);
+     int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
     char* pressed = kbdhandle(kbdfd, chars, false);
     kbddenit(kbdfd);
-    return *pressed=tic_key_v;
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[38] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_9;
+
+         int kbdfd = kbdinit();
+    char chars[39] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_0;
+//speaul keys 
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_return;
+    
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
+         int kbdfd = kbdinit();
+    char chars[37] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd);
+    return *pressed=tic_key_7;
 
 
 
@@ -282,7 +350,5 @@ sleep(1):
 WIILIGHT_TurnOff(); 
 }
 //if loading == true // do light stuff extern int getKeyboardInput() {
-
-  
 
   
