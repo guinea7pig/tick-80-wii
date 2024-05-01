@@ -20,6 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+//this peiec of code is modified by kai weaver all rights reserved
 #include "code.h"
 #include "ext/history.h"
 
@@ -2258,26 +2259,87 @@ static bool processViPosition(Code* code, bool ctrl, bool alt, bool shift)
     bool clear = !(shift || ctrl || alt);
 
     bool processed = true;
-    if (clear && keyWasPressed(code->studio, tic_key_k)) upLine(code);
-    else if (clear && keyWasPressed(code->studio, tic_key_j)) downLine(code);
-    else if (clear && keyWasPressed(code->studio, tic_key_h)) leftColumn(code);
-    else if (clear && keyWasPressed(code->studio, tic_key_l)) rightColumn(code);
+    if (clear && keyWasPressed(code->studio,  
+    int kbdfd = kbdinit();
+    char chars[14] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace k
+    return *pressed)) upLine(code);
+    else if (clear && keyWasPressed(code->studio,int kbdfd = kbdinit();
+    char chars[13] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace j
+    return *pressed)) downLine(code);
+    else if (clear && keyWasPressed(code->studio, int kbdfd = kbdinit();
+    char chars[11] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace h
+    return *pressed)) leftColumn(code);
+    else if (clear && keyWasPressed(code->studio, int kbdfd = kbdinit();
+    char chars[15] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace l
+    return *pressed)) rightColumn(code);
 
     //no need to be elitist, arrow keys can work too
-    else if (keyWasPressed(code->studio, tic_key_up)) upLine(code);
-    else if (keyWasPressed(code->studio, tic_key_down)) downLine(code);
-    else if (keyWasPressed(code->studio, tic_key_left)) leftColumn(code);
-    else if (keyWasPressed(code->studio, tic_key_right)) rightColumn(code);
+    else if (keyWasPressed(code->studio,
+    int kbdfd = kbdinit();
+    char chars[82] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace up
+    return *pressed)) upLine(code);
+    else if (keyWasPressed(code->studio, 
+    int kbdfd = kbdinit();
+    char chars[81] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace down 
+    return *pressed)) downLine(code);
+    else if (keyWasPressed(code->studio,
+     int kbdfd = kbdinit();
+    char chars[80] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace left
+    return *pressed)) leftColumn(code);
+    else if (keyWasPressed(code->studio,  
+    int kbdfd = kbdinit();
+    char chars[79] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace right
+    return *pressed)) rightColumn(code);
 
-    else if (clear && keyWasPressed(code->studio, tic_key_g)) goCodeHome(code);
-    else if (shift && keyWasPressed(code->studio, tic_key_g)) goCodeEnd(code);
+    else if (clear && keyWasPressed(code->studio, )) goCodeHome(code);
+    else if (shift && keyWasPressed(code->studio, int kbdfd = kbdinit();
+    char chars[10] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace g
+    return *pressed)) goCodeEnd(code);
 
-    else if (keyWasPressed(code->studio, tic_key_home)) goHome(code);
-    else if (clear && keyWasPressed(code->studio, tic_key_0)) goHome(code);
-    else if (keyWasPressed(code->studio, tic_key_end)) goEnd(code);
-    else if (shift && keyWasPressed(code->studio, tic_key_4)) goEnd(code);
+    else if (keyWasPressed(code->studio, 
+    int kbdfd = kbdinit();
+    char chars[74] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace home
+    return *pressed)) goHome(code);
+    else if (clear && keyWasPressed(code->studio, 
+    int kbdfd = kbdinit();
+    char chars[79] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace 0
+    return *pressed)) goHome(code);
+    else if (keyWasPressed(code->studio, )) goEnd(code);
+    else if (shift && keyWasPressed(code->studio,    
+     int kbdfd = kbdinit();
+    char chars[33] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace 0
+    return *pressed)) goEnd(code);
 
-    else if (keyWasPressed(code->studio, tic_key_pageup)) pageUp(code);
+    else if (keyWasPressed(code->studio,     
+    int kbdfd = kbdinit();
+    char chars[79] = kbdscan(kbdfd);
+    char* pressed = kbdhandle(kbdfd, chars, false);
+    kbddenit(kbdfd); // replaclace pageup
+    return *pressed)) pageUp(code);
     else if (ctrl && keyWasPressed(code->studio, tic_key_u)) pageUp(code);
     else if (keyWasPressed(code->studio, tic_key_pagedown)) pageDown(code);
     else if (ctrl && keyWasPressed(code->studio, tic_key_d)) pageDown(code);
